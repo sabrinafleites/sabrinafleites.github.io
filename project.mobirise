@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 2,
+    "uniqCompNum": 7,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -36,26 +36,31 @@
       },
       "components": [
         {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "color": "#ffffff"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1.1rem"
+              "font-size": "0.75rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.191rem"
+              "font-size": "0.812rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -82,26 +87,17 @@
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
             },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
             ".btn": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-size": "13px"
             }
           },
-          "_name": "menu",
-          "_anchor": "menu-0",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-6",
           "_params": {
             "bgColor": "#553982",
-            "fontSize": "1.1",
+            "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
@@ -115,12 +111,10 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-191x128.jpg",
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -128,8 +122,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sabrina Fleites</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://mobirise.com/\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>Biography/introduction</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://mobirise.com/\"><span class=\"mbri-opened-folder mbr-iconfont mbr-iconfont-btn\"></span>Applications</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://mobirise.com/\"><span class=\"mbri-pages mbr-iconfont mbr-iconfont-btn\"></span>Credentials</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://mobirise.com/\"><span class=\"etl-icon icon-search mbr-iconfont mbr-iconfont-btn\"></span>Reference</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://mobirise.com/\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>Contact Me</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>Introduction</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"mbri-opened-folder mbr-iconfont mbr-iconfont-btn\"></span>Applications</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"mbri-pages mbr-iconfont mbr-iconfont-btn\"></span>Credentials</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"><span class=\"mbri-pages mbr-iconfont mbr-iconfont-btn\"></span>Reference</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\"><span class=\"mbri-user2 mbr-iconfont mbr-iconfont-btn\"></span>Contact Me</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_inherit": "header1",
@@ -141,6 +135,9 @@
             ".btn": {
               "font-family": "'Oxygen', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".mbr-section-lead P": {
+              "color": "#ffffff"
             }
           },
           "_anchor": "header4-0",
@@ -164,8 +161,8 @@
             "showButtons": true
           },
           "title": "Sabrina Fleites",
-          "text": "I would introduce my self as a very energetic, positive and humorous person who likes to travel around places and get to know the history behind it. I would also describe myself as a very responsibele person who tries hard to get what she needs to be able to succed. I am also a hard worker who likes to comunicate and make friends. &nbsp; &nbsp;&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR MAC</a>"
+          "text": "<p><span style=\"font-size: 1.5rem; line-height: 1.5;\">I would introduce my self as a very energetic, positive and humorous person who likes to travel around places and get to know the history behind it. I would also describe myself as a very responsibele person who tries hard to get what she needs to be able to succed. I am also a hard worker who likes to comunicate and make friends.</span><span style=\"font-size: 1.07rem; line-height: 1.5;\">&nbsp;</span></p>",
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"#top\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>"
         },
         {
           "_name": "footer1",
@@ -300,21 +297,22 @@
           "title3": "Veternarian",
           "subtitle3": "",
           "caption3": "Being a Vetanarian helps the lives of pets and animals.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features2",
-              "name": "global",
+              "linkInNewWindow": false,
+              "name": "github",
+              "family": "socicon",
+              "active": true,
               "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "size": 0
             }
           },
-          "title4": "Set Designer",
+          "title4": "Foster Parent",
           "subtitle4": "",
-          "caption4": "Designing a stage is a very hard core job. It involves a lot of hands on assignments.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "caption4": "Being a Foster Parent for dogs is a very important and caregiving job.&nbsp;",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media5": {
             "iconFont": {
               "active": true,
@@ -343,6 +341,190 @@
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Web Maker Title",
+        "meta_descr": "Web Maker Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "font-family": "'Oswald', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.2rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.300rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#3e295f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#4e3477!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#553982"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".btn": {
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-3",
+          "_params": {
+            "bgColor": "#553982",
+            "fontSize": "1.2",
+            "fontName": {
+              "name": "Oswald",
+              "url": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "css": "'Oswald', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/mbr-191x128.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sabrina Fleites</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://mobirise.com/\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>Biography/introduction</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://mobirise.com/\"><span class=\"mbri-opened-folder mbr-iconfont mbr-iconfont-btn\"></span>Applicat ions</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://mobirise.com/\"><span class=\"mbri-pages mbr-iconfont mbr-iconfont-btn\"></span>Credentials</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://mobirise.com/\"><span class=\"etl-icon icon-search mbr-iconfont mbr-iconfont-btn\"></span>Reference</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"page1.html\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>Contact Me</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-4",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-5",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "sfleites@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
         }
       ]
     }
