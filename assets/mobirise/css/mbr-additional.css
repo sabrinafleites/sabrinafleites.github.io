@@ -17,6 +17,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -527,4 +528,7 @@ h6,
 }
 #features2-1 .mbr-cards-col:nth-child(odd) .card-text {
   font-family: 'Lato', sans-serif;
+}
+#features2-1 .btn {
+  font-family: 'Oswald', sans-serif;
 }
