@@ -139,7 +139,10 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             },
             ".mbr-section-lead P": {
-              "color": "#ffffff"
+              "color": "#7e9b9f"
+            },
+            ".mbr-section-title": {
+              "color": "#7e9b9f"
             }
           },
           "_anchor": "header4-0",
@@ -147,7 +150,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1465707852921-e9b2671df66d-2000x1334-8.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {

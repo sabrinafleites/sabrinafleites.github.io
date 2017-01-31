@@ -500,7 +500,10 @@ h6,
   font-family: 'Oxygen', sans-serif;
 }
 #header4-0 .mbr-section-lead P {
-  color: #ffffff;
+  color: #7e9b9f;
+}
+#header4-0 .mbr-section-title {
+  color: #7e9b9f;
 }
 #features2-1 .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #2e2e2e;
