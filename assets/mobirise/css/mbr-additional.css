@@ -1,15 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-
-
-
-
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
 
 
@@ -501,42 +495,28 @@ h6,
 }
 #header4-0 .mbr-section-lead P {
   color: #7e9b9f;
+  text-align: left;
 }
 #header4-0 .mbr-section-title {
   color: #7e9b9f;
 }
-#features2-1 .striped .mbr-cards-col:nth-child(2n+1) {
+#features2-a .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #2e2e2e;
 }
-#features2-1 .mbr-cards-col:nth-child(odd) .card-title {
-  text-align: center;
-  font-family: 'Titillium Web', sans-serif;
-}
-#features2-1 .mbr-cards-col:nth-child(odd) .card-title SPAN {
+#features2-a .mbr-cards-col:nth-child(odd) .card-text {
   text-align: left;
 }
-#features2-1 .mbr-cards-col:nth-child(odd) .card-subtitle {
-  text-align: center;
-  font-size: 14px;
-  color: #ffffff;
-  font-family: 'Lato', sans-serif;
+#features2-a .mbr-cards-col:nth-child(even) .card-text {
+  text-align: left;
 }
-#features2-1 .mbr-cards-col:nth-child(odd) .card-subtitle B {
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
-  color: #ffffff;
+#features2-a .mbr-cards-col:nth-child(odd) .card-title SPAN {
+  font-family: 'Raleway', sans-serif;
 }
-#features2-1 .mbr-cards-col:nth-child(even) .card-title {
-  font-family: 'Oswald', sans-serif;
+#features2-a .mbr-cards-col:nth-child(even) .card-title {
+  font-family: 'Raleway', sans-serif;
 }
-#features2-1 .mbr-cards-col:nth-child(even) .card-text {
-  font-family: 'Lato', sans-serif;
-}
-#features2-1 .mbr-cards-col:nth-child(odd) .card-text {
-  font-family: 'Lato', sans-serif;
-}
-#features2-1 .btn {
-  font-family: 'Oswald', sans-serif;
+#features2-a .mbr-cards-col:nth-child(odd) .card-title {
+  font-family: 'Raleway', sans-serif;
 }
 
 
