@@ -139,11 +139,11 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             },
             ".mbr-section-lead P": {
-              "color": "#7e9b9f",
+              "color": "#ffffff",
               "text-align": "left"
             },
             ".mbr-section-title": {
-              "color": "#7e9b9f"
+              "color": "#ffffff"
             }
           },
           "_anchor": "header4-0",
