@@ -504,7 +504,7 @@ h6,
   font-family: 'Lora', serif;
 }
 #features2-a .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #7e9b9f;
+  background-color: #efefef;
 }
 #features2-a .mbr-cards-col:nth-child(odd) .card-text {
   text-align: left;
