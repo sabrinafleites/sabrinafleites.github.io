@@ -195,49 +195,6 @@
           }
         },
         {
-          "_inherit": "header1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header4",
-          "_styles": {
-            ".btn": {
-              "font-family": "'Oxygen', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
-            },
-            ".mbr-section-lead P": {
-              "color": "#ffffff",
-              "text-align": "left"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "header4-0",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": true,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000000",
-            "contentAlign": "right",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "title": "Sabrina Fleites",
-          "text": "<p><span style=\"font-size: 1.5rem; line-height: 1.5;\">I would introduce my self as a very energetic, positive and humorous person who likes to travel and discover around places. Also, get to know the history behind it. I would also describe myself as a very responsibele person who tries hard to get what she needs to be able to succed and achieve. I am also a hard worker who can make anything big out of something very small. I consider my self as someone who likes to comunicate and make friends.</span></p>",
-          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"#top\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">More</a>"
-        },
-        {
           "_name": "footer1",
           "_anchor": "footer1-2",
           "_params": {

@@ -15,7 +15,6 @@
 
 
 
-
 body,
 input,
 textarea,
@@ -503,16 +502,6 @@ h6,
 }
 #header2-n .mbr-section-title {
   font-family: 'Lora', serif;
-}
-#header4-0 .btn {
-  font-family: 'Oxygen', sans-serif;
-}
-#header4-0 .mbr-section-lead P {
-  color: #ffffff;
-  text-align: left;
-}
-#header4-0 .mbr-section-title {
-  color: #ffffff;
 }
 #features2-a .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #7e9b9f;
