@@ -1,9 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+
 
 
 
@@ -490,6 +493,16 @@ h6,
 #ext_menu-6 .btn {
   font-family: 'Oxygen', sans-serif;
   font-size: 13px;
+}
+#header2-n .mbr-section-text {
+  text-align: left;
+  font-family: 'Lora', serif;
+}
+#header2-n .btn {
+  font-family: 'Lora', serif;
+}
+#header2-n .mbr-section-title {
+  font-family: 'Lora', serif;
 }
 #header4-0 .btn {
   font-family: 'Oxygen', sans-serif;
