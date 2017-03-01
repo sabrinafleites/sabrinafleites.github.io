@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Gallery.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -69,13 +69,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#a8a8a8"
+              "background": "#b3b3b3"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#b9b9b9!important"
+              "background": "#c4c4c4!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#c1c1c1"
+              "background": "#cccccc"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -99,7 +99,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-6",
           "_params": {
-            "bgColor": "#c1c1c1",
+            "bgColor": "#cccccc",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -171,42 +171,11 @@
         },
         {
           "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-z",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#0b0a0a",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": false,
-            "showText": false,
-            "showButton": false
-          },
-          "title": "ARTICLE HEADER",
-          "text": "<p>Article header with background image and parallax effect.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
-          "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "H3": {
+              "color": "#a38f84"
             }
           },
           "_tags": [
@@ -217,7 +186,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": "2",
-            "bgColor": "#fff",
+            "bgColor": "#cccccc",
             "showMeta": true
           },
           "title": "Gallery",
@@ -277,7 +246,7 @@
             "spacing": "1",
             "showText": true,
             "filter": false,
-            "bgColor": "#14161b",
+            "bgColor": "#cccccc",
             "filterBgColor": false,
             "fullWidth": true,
             "showBullets": true
@@ -324,7 +293,7 @@
             "showTitle": true,
             "showText": true
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\">MORE PICTURES</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"Gallery.html\" data-toolbar=\"-mbrBtnMove\">MORE PICTURES</a>",
           "title": "",
           "text": ""
         },
@@ -413,13 +382,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#3e295f"
+              "background": "#d6d6d6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#4e3477!important"
+              "background": "#e7e7e7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#553982"
+              "background": "#efefef"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -452,7 +421,7 @@
           "_name": "menu",
           "_anchor": "menu-3",
           "_params": {
-            "bgColor": "#553982",
+            "bgColor": "#efefef",
             "fontSize": "1.2",
             "fontName": {
               "name": "Oswald",
@@ -532,7 +501,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#7e9b9f",
+            "bgColor": "#cccccc",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -613,13 +582,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#a8a8a8"
+              "background": "#b3b3b3"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#b9b9b9!important"
+              "background": "#c4c4c4!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#c1c1c1"
+              "background": "#cccccc"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -643,7 +612,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-7",
           "_params": {
-            "bgColor": "#c1c1c1",
+            "bgColor": "#cccccc",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -787,7 +756,7 @@
             "spacing": 0,
             "showText": false,
             "filter": false,
-            "bgColor": "#7e9b9f",
+            "bgColor": "#cccccc",
             "filterBgColor": false,
             "fullWidth": true,
             "showBullets": true
@@ -841,13 +810,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#a8a8a8"
+              "background": "#b3b3b3"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#b9b9b9!important"
+              "background": "#c4c4c4!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#c1c1c1"
+              "background": "#cccccc"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -871,7 +840,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-q",
           "_params": {
-            "bgColor": "#c1c1c1",
+            "bgColor": "#cccccc",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -953,8 +922,8 @@
               "color": "#bcbcbc"
             },
             ".iconbox": {
-              "background-color": "@primaryColor",
-              "border-color": "@primaryColor"
+              "background-color": "#a38f84",
+              "border-color": "#a38f84"
             },
             "P": {
               "text-align": "left",
@@ -969,13 +938,13 @@
           "_name": "features7",
           "_anchor": "features7-14",
           "_params": {
-            "iconsBgColor": "@primaryColor",
+            "iconsBgColor": "#a38f84",
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#cccccc",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1175,13 +1144,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#a8a8a8"
+              "background": "#b3b3b3"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#b9b9b9!important"
+              "background": "#c4c4c4!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#c1c1c1"
+              "background": "#cccccc"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1205,7 +1174,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-b",
           "_params": {
-            "bgColor": "#c1c1c1",
+            "bgColor": "#cccccc",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -1270,7 +1239,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
+            "bgColor": "#cccccc",
             "showMeta": false
           },
           "title": "Photoshop Gallery",
@@ -1363,7 +1332,7 @@
             "spacing": "1",
             "showText": true,
             "filter": false,
-            "bgColor": "fff",
+            "bgColor": "#cccccc",
             "filterBgColor": false,
             "fullWidth": false,
             "showBullets": true
@@ -1413,13 +1382,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#a8a8a8"
+              "background": "#b3b3b3"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#b9b9b9!important"
+              "background": "#c4c4c4!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#c1c1c1"
+              "background": "#cccccc"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1443,7 +1412,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-19",
           "_params": {
-            "bgColor": "#c1c1c1",
+            "bgColor": "#cccccc",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
