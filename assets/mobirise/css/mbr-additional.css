@@ -835,6 +835,10 @@ h6,
   font-family: 'Oxygen', sans-serif;
   font-size: 13px;
 }
+#header3-1u .mbr-section-title,
+#header3-1u .mbr-section-subtitle {
+  text-align: center;
+}
 
 
 #ext_menu-19 .hide-buttons .nav-btn {
