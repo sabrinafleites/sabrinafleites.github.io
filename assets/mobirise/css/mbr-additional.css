@@ -1,7 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 
 
@@ -500,7 +502,7 @@ h6,
   text-align: center;
 }
 #header3-y H3 {
-  color: #a38f84;
+  color: #ffffff;
 }
 #social-buttons4-p .mbr-section-title,
 #social-buttons4-p .btn-social {
@@ -508,6 +510,18 @@ h6,
 }
 #social-buttons4-p .mbr-section-title SPAN {
   font-family: 'Lora', serif;
+}
+#contacts4-1z P {
+  color: #efefef;
+}
+#contacts4-1z STRONG {
+  color: #efefef;
+}
+#contacts4-1z .btn {
+  font-family: 'Open Sans', sans-serif;
+}
+#contacts4-1z UL {
+  color: #ffffff;
 }
 
 
