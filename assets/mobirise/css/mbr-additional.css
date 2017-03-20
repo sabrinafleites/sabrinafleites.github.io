@@ -605,7 +605,7 @@ h6,
   color: #fff;
 }
 #msg-box8-1m .mbr-section-title {
-  color: #000000;
+  color: #ffffff;
 }
 #ext_menu-19 .hide-buttons .nav-btn {
   display: none !important;
@@ -782,6 +782,9 @@ h6,
 #header3-17 .mbr-section-title,
 #header3-17 .mbr-section-subtitle {
   text-align: center;
+}
+#header3-17 H3 {
+  color: #ffffff;
 }
 #ext_menu-b .hide-buttons .nav-btn {
   display: none !important;
