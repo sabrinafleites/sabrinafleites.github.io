@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "introduction.html",
+    "currentPage": "Gallery.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -209,7 +209,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-1-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-1-2000x1500.jpg",
-                "caption": "",
+                "caption": "Sun shinning on grass",
                 "active": false
               },
               {
@@ -219,7 +219,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-4-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-4-2000x1500.jpg",
-                "caption": "",
+                "caption": "Chips in the sunset",
                 "active": true
               },
               {
@@ -229,7 +229,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-3-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-3-2000x1500.jpg",
-                "caption": "",
+                "caption": "House in Virginia",
                 "active": false
               },
               {
@@ -239,7 +239,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-2000x1500.jpg",
-                "caption": "",
+                "caption": "Rabbit on the grass",
                 "active": false
               }
             ],
@@ -898,7 +898,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/my-name-332x1280.jpg",
+              "src": "@PROJECT_PATH@/assets/images/my-name-332x1281.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -1502,8 +1502,22 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/sabrina-fleites-painting-6-2000x2000.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/sabrina-fleites-painting-7-2000x2000.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -1678,7 +1692,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-13-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-13-2000x1500.jpg",
-                "caption": "Type caption here",
+                "caption": "Recked House",
                 "active": false
               },
               {
@@ -1688,7 +1702,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-5-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-5-2000x1500.jpg",
-                "caption": "Type caption here",
+                "caption": "White House",
                 "active": false
               },
               {
@@ -1698,7 +1712,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-6-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-6-2000x1500.jpg",
-                "caption": "Type caption here",
+                "caption": "Pine tree branch",
                 "active": false
               },
               {
@@ -1708,7 +1722,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-7-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-7-2000x1500.jpg",
-                "caption": "Type caption here",
+                "caption": "Pink Flower",
                 "active": false
               },
               {
@@ -1718,7 +1732,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-8-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/img-8-2000x1500.jpg",
-                "caption": "Type caption here",
+                "caption": "Sun beghind aparment",
                 "active": false
               },
               {
@@ -1753,7 +1767,7 @@
               }
             ],
             "spacing": 0,
-            "showText": false,
+            "showText": true,
             "filter": false,
             "bgColor": "#FFFFFF",
             "filterBgColor": false,
