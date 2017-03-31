@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "photoshop.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.4",
-    "uniqCompNum": 75,
+    "uniqCompNum": 77,
     "versionPublish": "3.11.1"
   },
   "pages": {
@@ -168,6 +168,44 @@
           "title": "Sabrina Fleites",
           "text": "\"Laughter is an instant vacation\"-Milton Berle",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"introduction.html\" data-toolbar=\"-mbrBtnMove\">Enter</a> "
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-24",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#cccccc",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButton": true
+          },
+          "title": "Introduction Video",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://www.youtube.com/watch?v=tiru2voBR9s\" data-toolbar=\"-mbrBtnMove\">intro</a>"
         },
         {
           "_styles": {

@@ -497,6 +497,13 @@ h6,
 #header1-x .btn {
   font-family: 'Lora', serif;
 }
+#msg-box3-24 .mbr-section-title,
+#msg-box3-24 p {
+  color: #000;
+}
+#msg-box3-24 .mbr-section-title {
+  color: #efefef;
+}
 #header3-y .mbr-section-title,
 #header3-y .mbr-section-subtitle {
   text-align: center;
