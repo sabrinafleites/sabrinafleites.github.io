@@ -2643,7 +2643,7 @@
             },
             "video": {
               "active": true,
-              "src": "https://youtu.be/-QibWwH_oog",
+              "src": "https://youtu.be/anWv-1Cn_4Q",
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
@@ -2656,7 +2656,7 @@
           },
           "title": "A Thousand Million Reasons",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         }
       ]
     }
